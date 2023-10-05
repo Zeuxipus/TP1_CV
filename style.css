@@ -9,11 +9,16 @@ body{
     background-color: pink;
 }
 
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     background: wheat;
-    max-width: 800px;
+    max-width: 900px;
     margin: 60px auto;
-    height: 1250px;
+    min-height: 100vh;
     padding: 20px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
